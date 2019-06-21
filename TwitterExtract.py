@@ -9,11 +9,10 @@ csvFile = open('result.csv', 'w')
 
 #Use csv writer
 csvWriter = csv.writer(csvFile)
-
+print('Hello Siddhesh')
 
 
 class TwitterExtract:
-
 
 
     def __init__(self):
@@ -41,6 +40,7 @@ class TwitterExtract:
         with open('twitter_extraction.json', 'w') as file:
 
             file.write('[')
+            print('Hello again')
 
             for index, tweet in enumerate(self.search_tweets):
 
