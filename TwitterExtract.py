@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import tweepy
 import csv
 import json
 
 # Open/create a file to append data to
-csvFile = open('result.csv', 'w')
+csvFile = open('output.csv', 'w')
 
 #Use csv writer
 csvWriter = csv.writer(csvFile)
