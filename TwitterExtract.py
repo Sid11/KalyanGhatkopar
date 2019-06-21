@@ -17,6 +17,7 @@ class TwitterExtract:
 
 
     def __init__(self):
+        print("Yes")
 
         with open('event_credentials.json', 'r') as file:
 
@@ -29,7 +30,6 @@ class TwitterExtract:
         self.api = tweepy.API(self.auth)
 
         self.search_tweets = []
-
 
 
     def extract_tweets(self, query='pulwama attack', max_tweets=100):
