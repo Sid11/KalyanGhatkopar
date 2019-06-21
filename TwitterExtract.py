@@ -17,7 +17,7 @@ class TwitterExtract:
 
     def __init__(self):
         print("Yes")
-
+        print("No")
         with open('event_credentials.json', 'r') as file:
 
             self.credentials = json.load(file)
@@ -55,7 +55,7 @@ class TwitterExtract:
             print(tweet.entities)
 
 
-
+print('Finally happening')
 
 extractor = TwitterExtract()
 extractor.tocsv()
