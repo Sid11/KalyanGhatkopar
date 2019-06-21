@@ -55,7 +55,7 @@ class TwitterExtract:
             print(tweet.entities)
 
 
-
+print('Finally happening')
 
 extractor = TwitterExtract()
 extractor.tocsv()
