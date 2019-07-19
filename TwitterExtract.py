@@ -5,6 +5,7 @@ import csv
 import json
 print("Changes in Sid branch")
 
+
 # Open/create a file to append data to
 csvFile = open('output.csv', 'w')
 
