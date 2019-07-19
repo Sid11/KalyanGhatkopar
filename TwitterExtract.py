@@ -3,7 +3,7 @@
 import tweepy
 import csv
 import json
-print("Remote change")
+print("Remote change Local")
 # Open/create a file to append data to
 csvFile = open('output.csv', 'w')
 
