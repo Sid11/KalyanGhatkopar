@@ -1,7 +1,7 @@
 import csv
 import json
 import pandas as pd
-print('Local change')
+print('Local change V2')
 with open('twitter_extraction.json','r') as inputfile:
     tweet= inputfile.read()
 
